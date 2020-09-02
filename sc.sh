@@ -1,3 +1,9 @@
+
+echo "
+                                 \   |     |                __|                
+                                _ \  | _ \   \   _` |____|\__ \  _|  _` |   \  
+                              _/  _\_|.__/_| _|\__,_|     ____/\__|\__,_|_| _| 
+                                     _|                                        "
 echo "\e[7mTarget IP (Only IP):\e[27m \e[5m==>\e[25m"
 read input
 #Taking Only IP ...(Working To Convert DNS to IP { dig +short www.google.com | tail -n 1 }
