@@ -1,9 +1,27 @@
 
-echo "
-                                 \   |     |                __|                
-                                _ \  | _ \   \   _` |____|\__ \  _|  _` |   \  
-                              _/  _\_|.__/_| _|\__,_|     ____/\__|\__,_|_| _| 
-                                     _|                                        "
+echo " 
+
+#!/bin/bash 
+
+###################################################################
+#Script Name	: Alpha-Basic-Scan                                                                       
+#Description	: Here, all scanning tool like (Nmap,Nikto,dirb,whatsweb) are included in one script . Just insert target ip and all scanning done automatically . 
+		  Don't need to scanning seprate in each tools. In last all tools throw output to Desktop .Here script also check is package are instlled 
+		  or not before starting scanning.                                                                                                                                                              
+#Author       	: Avadhesh Gupta                                
+#Email         	: avdsgt@gmail.com  
+#Twitter        : https://twitter.com/avdsgt
+#Github         : https://github.com/avdsgt
+###################################################################"
+
+echo "           _            __        
+ /\ |._ |_  _.__|_) _. _o ___(_  _ _.._ 
+/--\||_)| |(_|  |_)(_|_>|(_  __)(_(_|| |
+     |                                  
+"
+
+
+
 echo "\e[7mTarget IP (Only IP):\e[27m \e[5m==>\e[25m"
 read input
 #Taking Only IP ...(Working To Convert DNS to IP { dig +short www.google.com | tail -n 1 }
