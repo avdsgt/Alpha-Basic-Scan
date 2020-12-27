@@ -3,7 +3,7 @@ echo "
 
 #!/bin/bash 
 
-###################################################################
+###################################################################################################################################################################
 #Script Name	: Alpha-Basic-Scan                                                                       
 #Description	: Here, all scanning tool like (Nmap,Nikto,dirb,whatsweb) are included in one script . Just insert target ip and all scanning done automatically . 
 		  Don't need to scanning seprate in each tools. In last all tools throw output to Desktop .Here script also check is package are instlled 
@@ -12,7 +12,7 @@ echo "
 #Email         	: avdsgt@gmail.com  
 #Twitter        : https://twitter.com/avdsgt
 #Github         : https://github.com/avdsgt
-###################################################################"
+#####################################################################################################################################################################"
 
 echo "           _            __        
  /\ |._ |_  _.__|_) _. _o ___(_  _ _.._ 
